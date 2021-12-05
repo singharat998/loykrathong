@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+    
+    .container {
+      width: 98%;
+      padding: 5px;
+      overflow: hidden;
+    }
+
+    nav .navbar-menu ul {
+      display: none;
+    }
+
+    .nav-hamberger {
+      display: flex;
+    }
+
+    .logo img {
+      width: 70px;
+      height: 70px;
+    }
+    
+
+    .slide-item.active {
+      clip-path: circle(300.4% at 0% 500%);
+    }
+
+    .s1-text {
+      font-size: 1.2rem;
+    }
+
+    .s1-title {
+      font-size: 1.5rem;
+    }
+
+    .backgroundSec1 {
+      display: none;
+    }
+
+    .backgroundSec2 {
+      display: none;
+    }
+
+    .changeLang {
+      margin-left: 0px;
+      position: absolute;
+      right: 6em;
+    }
+
+
+    .ImageBall ul li {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    .ImageBall ul li{
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+    
+    
+  }
