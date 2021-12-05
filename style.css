@@ -107,9 +107,9 @@ nav .navbar-menu.active ul li {
     width: 70%;
     margin: 0px auto;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5rem;
     background-color: #fff;
-    box-shadow: 5px -5px 20px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
 }
 
 
@@ -344,4 +344,31 @@ section {
     width: 100%;
     height: 100%;
     z-index: 1;
+}
+
+.container-fuid {
+    width: 100%;
+    padding: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .item-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.howtomake {
+    padding: 3rem;
+}
+
+.it-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
