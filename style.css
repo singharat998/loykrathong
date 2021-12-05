@@ -372,3 +372,12 @@ section {
     margin-bottom: 1rem;
     font-size: 2rem;
 }
+
+.box-item h4 {
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+.img-thumnail {
+    width: 100%;
+}
