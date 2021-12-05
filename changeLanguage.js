@@ -16,7 +16,6 @@ const ittitle = document.querySelectorAll('.it-title');
 const titlequestion = document.querySelector('.title-question');
 const tiltlequestionready =document.querySelector('.title-question-ready');
 
-console.log(howtomake)
 
 slectLang.onchange = function(){
     
