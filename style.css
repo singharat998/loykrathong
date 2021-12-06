@@ -398,7 +398,6 @@ section {
 }
 
 .formkrathong {
-    margin: 3rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -430,6 +429,7 @@ textarea {
 }
 
 .krathong-item {
+    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -66,5 +66,9 @@
   .mt-4  {
     font-size: 1.3rem;
   }
+
+  .pp img {
+    width: 150px;
+}
     
   }
