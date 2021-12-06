@@ -59,6 +59,12 @@
       margin-left: 0.3rem;
       margin-right: 0.3rem;
   }
-    
+  .krathong-item {
+    margin: 1rem;
+  }
+
+  .mt-4  {
+    font-size: 1.3rem;
+  }
     
   }

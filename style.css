@@ -381,3 +381,164 @@ section {
 .img-thumnail {
     width: 100%;
 }
+
+
+.form-control {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.formkrathong {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+textarea {
+    width: 300px;
+    height: 150px;
+    resize: none;
+ }
+
+.btn-submit-form {
+    margin-top: 2rem;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #6A33FF;
+    background-color: #6A33FF;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.krathong {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.krathong-item {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.k-item {
+    margin: 1rem;
+    width: 100px;
+    height: 100px;
+}
+
+.people {
+    margin: 2rem 0px;
+}
+.people ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.people ul li {
+    margin-right: 1rem;
+}
+.pp {
+    display: flex;
+    flex-direction: column;
+}
+
+.pp span {
+    text-align: center;
+}
+.pp img {
+    width: 200px;
+}
+
+.mt-4 {
+    margin: 4rem 0px;
+}
+
+#footer {
+    margin-top: 1rem;
+    min-height: 20vh;
+    background-color: #000;
+}
+
+
+#thesea .background{
+   object-fit: fit;
+   background-size: cover;
+   overflow: hidden;
+   background-position: center;
+   background-repeat:  no-repeat;
+   width: 100%;
+   background-image: url("https://1.bp.blogspot.com/-Vqw64YAVLy0/WoxLTBhO17I/AAAAAAAAK5A/Rvj1CVKEIDc-QIX35q9YzpWtZ-afXGCCACLcBGAs/s1600/sunsetkantang.JPG");
+}
+
+.kathongcon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+.kathong-i ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.kra-j:nth-child(0) {
+    animation: krathong 3s infinite;
+    animation-delay: 5s;
+}
+.kra-j:nth-child(1) {
+    animation: krathong 3s infinite;
+    animation-delay: 6s;
+}
+.kra-j:nth-child(2)  {
+    animation: krathong 3s infinite;
+    animation-delay: 7s;
+}
+.kra-j:nth-child(3)  {
+    animation: krathong 3s infinite;
+    animation-delay: 8s;
+}
+.kra-j:nth-child(4)  {
+    animation: krathong 3s infinite;
+    animation-delay: 9s;
+}
+
+.kra-j:nth-child(5)  {
+    animation: krathong 3s infinite;
+    animation-delay: 10s;
+}
+.kra-j:nth-child(6)  {
+    animation: krathong 3s infinite;
+    animation-delay: 11s;
+}
+
+
+
+
+@keyframes krathong {
+    from {
+        transform: translateX(-20rem);
+    }
+    to {
+        transform: translateX(0rem);
+    }
+}
