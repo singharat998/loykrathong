@@ -430,7 +430,6 @@ textarea {
 }
 
 .krathong-item {
-    margin: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -501,34 +500,47 @@ textarea {
     list-style: none;
 }
 
+.kathong-i ul li {
+    position: relative;
+    left: -40rem;
+}
+
+
 .kra-j:nth-child(0) {
     animation: krathong 3s infinite;
     animation-delay: 5s;
+    transform: translateX(0rem);
 }
 .kra-j:nth-child(1) {
     animation: krathong 3s infinite;
     animation-delay: 6s;
+    transform: translateX(0rem);
 }
 .kra-j:nth-child(2)  {
     animation: krathong 3s infinite;
     animation-delay: 7s;
+    transform: translateX(0rem);
 }
 .kra-j:nth-child(3)  {
     animation: krathong 3s infinite;
     animation-delay: 8s;
+    transform: translateX(0rem);
 }
 .kra-j:nth-child(4)  {
     animation: krathong 3s infinite;
     animation-delay: 9s;
+    transform: translateX(0rem);
 }
 
 .kra-j:nth-child(5)  {
     animation: krathong 3s infinite;
     animation-delay: 10s;
+    transform: translateX(0rem);
 }
 .kra-j:nth-child(6)  {
     animation: krathong 3s infinite;
     animation-delay: 11s;
+    transform: translateX(0rem);
 }
 
 
@@ -536,9 +548,9 @@ textarea {
 
 @keyframes krathong {
     from {
-        transform: translateX(-20rem);
+        transform: translateX(0rem);
     }
     to {
-        transform: translateX(0rem);
+        transform: translateX(20rem);
     }
 }
